@@ -1,0 +1,85 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    
+}
+.main{
+    height: 10rem;
+    background-color: rgb(200, 120, 214);
+    width: 15rem;
+    display: flex;
+    padding: 1rem;
+    justify-content: center;
+}
+nav{
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    background-color: blueviolet;
+    color: white;
+    font-weight: 600;
+    font-size: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: sticky;
+    top: 0;
+}
+textarea{
+margin: 1.5rem;
+height: 6rem;
+}
+.icons{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    height: 1.3rem;
+    margin-right: -8rem;
+
+}
+footer{
+    display: flex;
+    justify-content: center;
+    margin-top: auto;
+    background-color: blueviolet;
+    color: white;
+}
+.add-note{
+   
+    background-color: rgb(11, 18, 24);
+    width: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 0 0 1rem;
+}
+.print{
+   
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+    grid-template-rows: 150px 150px;
+    gap: 3rem;
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+.hidden{
+    display: none;
+}
+.back-textarea{
+    margin: 1.5rem ;
+    height: 6rem;
+    width:10rem;
+    background-color: #fafbfc;
+    border: 1px solid red;
+   overflow: hidden;
+
+}
+.btn{
+    background-color: black;
+    border: none;
+    color: white;
+}
